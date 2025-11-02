@@ -1,4 +1,4 @@
-// ============= CLASSES MÉTIER =============
+//Metier
 
 export class Attack {
   name: string;
@@ -270,7 +270,7 @@ export class Trainer {
   }
 }
 
-// ============= SERVICES DE COMBAT =============
+//Combat
 
 export interface BattleResult {
   success: boolean;

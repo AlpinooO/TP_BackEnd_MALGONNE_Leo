@@ -1,5 +1,5 @@
 "use strict";
-// ============= CLASSES MÉTIER =============
+//Metier
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.BattleService = exports.Trainer = exports.Pokeman = exports.Attack = void 0;
 class Attack {
