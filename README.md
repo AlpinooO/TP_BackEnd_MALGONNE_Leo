@@ -12,15 +12,15 @@ Installation
    npm run dev
 
 Endpoints principaux
-- GET /api/health — état du service
-- GET /api/trainers — lister les dresseurs
-- POST /api/trainers — créer un dresseur { name }
-- GET /api/pokemons — lister les pokémons
-- POST /api/pokemons — créer un pokémon { name, maxLifePoints }
-- GET /api/attacks — lister les attaques
-- POST /api/attacks — créer une attaque { name, damage, usageLimit }
-- POST /api/trainers/:trainerId/pokemons/:pokemonId — ajouter un pokémon à un dresseur
-- POST /api/battles/random-duel — lancer un combat aléatoire { trainer1Id, trainer2Id }
+- GET /pokamon/health — état du service
+- GET /pokamon/trainers — lister les dresseurs
+- POST /pokamon/trainers — créer un dresseur { name }
+- GET /pokamon/pokemons — lister les pokémons
+- POST /pokamon/pokemons — créer un pokémon { name, maxLifePoints }
+- GET /pokamon/attacks — lister les attaques
+- POST /pokamon/attacks — créer une attaque { name, damage, usageLimit }
+- POST /pokamon/trainers/:trainerId/pokemons/:pokemonId — ajouter un pokémon à un dresseur
+- POST /pokamon/battles/random-duel — lancer un combat aléatoire { trainer1Id, trainer2Id }
 
 Base de données
 - Si vous utilisez PostgreSQL, exécutez `init.sql` pour créer les tables.
